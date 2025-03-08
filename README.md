@@ -2,7 +2,9 @@
 
 A React application for testing and visualizing Xbox controller inputs in real-time. This application uses the Gamepad API to detect and display controller state, including buttons, axes, and vibration capabilities.
 
-![Xbox Controller Tester](https://i.imgur.com/example.png)
+![image](https://github.com/user-attachments/assets/65f42192-7dc1-4868-92d5-c4ddaf1d60c3)
+
+
 
 ## Features
 
