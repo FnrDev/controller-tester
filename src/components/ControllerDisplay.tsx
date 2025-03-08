@@ -60,7 +60,7 @@ const ControllerDisplay: React.FC<ControllerDisplayProps> = ({ gamepad }) => {
               if (gamepad.vibrationActuator) {
                 try {
                   // Use type assertion to access the playEffect method
-                  (gamepad.vibrationActuator as any).playEffect('dual-rumble', {
+                  (gamepad.vibrationActuator).playEffect('dual-rumble', {
                     startDelay: 0,
                     duration: 500,
                     weakMagnitude: 1.0,

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { GamepadState, GamepadAxisState, GamepadButtonState } from '../types/gamepad';
+import { GamepadState } from '../types/gamepad';
 
 /**
  * Custom hook to handle gamepad detection and state updates
@@ -100,7 +100,7 @@ export const useGamepad = () => {
       window.removeEventListener('gamepaddisconnected', handleGamepadDisconnected);
       cancelAnimationFrame(animationFrameId);
     };
-  }, []);
+  });
 
   return {
     gamepads,
